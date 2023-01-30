@@ -1,0 +1,14 @@
+1) Created the 'index.html' file for the html in which the grid (3*3) is added for playing the tic tac toe.
+
+2) In grid there are nine boxes available in which the boxTexts avaiable for the 'X' or 'O'.
+
+3) Each box work as the button.
+
+4) Two Players 'X' and 'O' is used for the game.
+
+5) A div is created for showing the player's turn.
+
+6) First turn is set for player 'X'.
+
+7) A reset button is available for restarting the game.
+
