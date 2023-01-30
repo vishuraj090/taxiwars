@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-size: 2rem;
+}
+h2{
+    font-size: 1.5rem;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.gameTitle{
+    background-color: rgb(252, 97, 1);
+    height: 50px;
+    
+}
+.info{
+    margin: 0 20px;
+    align-self: flex-start;
+    min-width: 200px;
+    text-align: center;
+}
+.gameArea{
+    margin-top: 5vw;
+}
+.boxContainer{
+    display: grid;
+    grid-template-rows: repeat(3, 10vw);
+    grid-template-columns: repeat(3, 10vw);
+    justify-content: center;
+    width:60vw;
+    margin-bottom: 20px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8vw;
+}
+.box:hover{
+    background-color: #faebd7;
+    cursor: pointer;
+}
+.border-top{
+    border-top: 3px solid #000;
+}
+
+.border-bottom{
+    border-bottom: 3px solid #000;
+}
+
+.border-left{
+    border-left: 3px solid #000;
+}
+
+.border-right{
+    border-right: 3px solid #000;
+}
+.restBtn{
+    padding: 0.5rem 1rem;
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+    border: 3px solid #000;
+    border-radius: 50px;
+    width: 100%;
+    margin-top: 20px;
+    cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+    .boxContainer{
+        display: grid;
+        grid-template-rows: repeat(3, 20vw);
+        grid-template-columns: repeat(3, 20vw);
+    }
+}
